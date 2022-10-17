@@ -27,7 +27,7 @@ class SampleTestClass:
     @raises(TypeError)
     def test_sample1(self):
         pow(2, '4')
-    @raises(Execption)    
+    @raises(Exception)    
     def test_sample2(self):        
         max([7, 8, '4'])
     
